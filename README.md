@@ -6,5 +6,5 @@ I have selected random image from instagram and create the mobile application de
 UI demo made in flutter.
 
 * Design Credit : https://www.instagram.com/p/CJLxaVMAfHi/?utm_source=ig_web_copy_link
-you can found more awesome ui design images from here -> https://www.instagram.com/uxuimaster/
+* you can found more awesome ui design images from here -> https://www.instagram.com/uxuimaster/
 
