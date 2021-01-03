@@ -8,4 +8,4 @@ UI demo made in flutter.
 * Design Credit : https://www.instagram.com/p/CJLxaVMAfHi/?utm_source=ig_web_copy_link
 * you can found more awesome ui design images from here -> https://www.instagram.com/uxuimaster/
 
-<img src="/assets/images/img1.jpg" height="600" width="300"> . <img src="/assets/images/img2.jpg" height="600" width="300"> . <img src="/assets/images/img3.jpg" height="600" width="300">
+<img src="/assets/images/img1.jpg" height="400" width="200"> . <img src="/assets/images/img2.jpg" height="400" width="200"> . <img src="/assets/images/img3.jpg" height="400" width="200">
