@@ -43,60 +43,63 @@ class IntroScreen extends StatelessWidget {
             child: Container(
               width: deviceSize.width,
               height: deviceSize.height - 230,
-              child: Column(
-                children: [
-                  Text(
-                    'Hey there !',
-                    style: TextStyle(
-                      fontSize: 40,
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                  SizedBox(height: 20),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 50),
-                    child: Text(
-                      'Please let us know what type of activities you like the most, so we can prepare some awesome destinations for you!',
-                      textAlign: TextAlign.center,
+              child: SingleChildScrollView(
+                physics: BouncingScrollPhysics(),
+                child: Column(
+                  children: [
+                    Text(
+                      'Hey there !',
                       style: TextStyle(
-                        fontSize: 18,
+                        fontSize: 40,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
-                  ),
-                  SizedBox(height: 20),
-                  //🏔️ 🌄 ☀️ 🎄 🍛 🏊 🏄 🏦
-                  Wrap(
-                    alignment: WrapAlignment.center,
-                    children: [
-                      HomeChip(lable: "🏔️  Trekking"),
-                      HomeChip(lable: "🌄  Shooting"),
-                      HomeChip(lable: "☀️  Sunbathing"),
-                      HomeChip(lable: "🎄  Wandering"),
-                      HomeChip(lable: "🍛  Eating"),
-                      HomeChip(lable: "🏊  Swimming"),
-                      HomeChip(lable: "🏄  Surfing"),
-                      HomeChip(lable: "🏦  Sightseeing"),
-                    ],
-                  ),
-                  SizedBox(height: 70),
-                  HomeButton(
-                    deviceSize: deviceSize,
-                    text: "CONTINUE",
-                    onTap: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (_) => ExploreScreen()));
-                    },
-                  ),
-                  SizedBox(height: 50),
-                  Text(
-                    'Skip for now',
-                    style: TextStyle(
-                        color: Colors.grey[500],
-                        fontSize: 18,
-                        letterSpacing: 2,
-                        fontWeight: FontWeight.w800),
-                  ),
-                ],
+                    SizedBox(height: 20),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 50),
+                      child: Text(
+                        'Please let us know what type of activities you like the most, so we can prepare some awesome destinations for you!',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    //🏔️ 🌄 ☀️ 🎄 🍛 🏊 🏄 🏦
+                    Wrap(
+                      alignment: WrapAlignment.center,
+                      children: [
+                        HomeChip(lable: "🏔️  Trekking"),
+                        HomeChip(lable: "🌄  Shooting"),
+                        HomeChip(lable: "☀️  Sunbathing"),
+                        HomeChip(lable: "🎄  Wandering"),
+                        HomeChip(lable: "🍛  Eating"),
+                        HomeChip(lable: "🏊  Swimming"),
+                        HomeChip(lable: "🏄  Surfing"),
+                        HomeChip(lable: "🏦  Sightseeing"),
+                      ],
+                    ),
+                    SizedBox(height: 70),
+                    HomeButton(
+                      deviceSize: deviceSize,
+                      text: "CONTINUE",
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (_) => ExploreScreen()));
+                      },
+                    ),
+                    SizedBox(height: 50),
+                    Text(
+                      'Skip for now',
+                      style: TextStyle(
+                          color: Colors.grey[500],
+                          fontSize: 18,
+                          letterSpacing: 2,
+                          fontWeight: FontWeight.w800),
+                    ),
+                  ],
+                ),
               ),
             ),
           )
