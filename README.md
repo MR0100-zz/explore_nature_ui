@@ -1,16 +1,10 @@
 # explore_nature_ui
 
-A new Flutter project.
+Explore_nature_ui is a simple three screen mobile application demo made in flutter. 
+I have selected random image from instagram and create the mobile application demo from the selected UI. 
 
-## Getting Started
+UI demo made in flutter.
 
-This project is a starting point for a Flutter application.
+* Design Credit : https://www.instagram.com/p/CJLxaVMAfHi/?utm_source=ig_web_copy_link
+* you can found more awesome ui design images from here -> https://www.instagram.com/uxuimaster/
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
